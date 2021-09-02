@@ -72,7 +72,7 @@ def menue_main():
                     if folder_num == 0:
                         #print('item selection: folder: f {}'.format(CURRENT_FOLDER))
                         items.menue_main(CURRENT_FOLDER['id'],CURRENT_FOLDER['name'],CURRENT_FOLDER['parent'])
-                    elif folder_num > 0 and folder_num <= len(SUBFOLDERS_LIST)-1:
+                    elif folder_num > 0 and folder_num <= len(SUBFOLDERS_LIST):
                         folder_num = folder_num - 1
                         #print('item selection: folder: f {}'.format(SUBFOLDERS_LIST[folder_num]))
                         items.menue_main(SUBFOLDERS_LIST[folder_num]['id'],SUBFOLDERS_LIST[folder_num]['name'],SUBFOLDERS_LIST[folder_num]['parent'])
