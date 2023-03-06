@@ -5,3 +5,9 @@ env variables:
     export SYNOLOGY_FILESTATION_SERVICE=<hostname:port>
 
     
+------------------------------
+
+Run:
+
+python3 frontend-cli.py
+
